@@ -1,0 +1,8 @@
+<study>
+  <check>
+    <message>No errors found in configuration file syntax.</message>
+    <message src="algos\biasedmf\auc\exp00000\log\librec-20211208_114041.log">No errors found in experiment 0 log.</message>
+    <message src="algos\biasedmf\auc\exp00001\log\librec-20211208_114042.log">No errors found in experiment 1 log.</message>
+    <message src="algos\biasedmf\auc\exp00002\log\librec-20211208_114042.log">No errors found in experiment 2 log.</message>
+  </check>
+</study>

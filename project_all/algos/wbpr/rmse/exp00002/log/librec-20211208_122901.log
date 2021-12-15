@@ -1,0 +1,198 @@
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+21/12/08 12:29:01 INFO TextDataConvertor: Dataset: [../data/ratings.csv]
+21/12/08 12:29:01 INFO TextDataConvertor: DataSet: ..\data\ratings.csv is finished
+21/12/08 12:29:01 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 12:29:01 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 12:29:01 INFO TextDataModel: Transform data to Convertor successfully!
+21/12/08 12:29:02 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 12:29:02 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+21/12/08 12:29:02 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 1.
+21/12/08 12:29:02 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 12:29:02 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 12:29:02 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 12:29:02 INFO TextDataConvertor: Dataset: [../data/split/cv_1/train.txt]
+21/12/08 12:29:02 INFO TextDataConvertor: DataSet: ..\data\split\cv_1\train.txt is finished
+21/12/08 12:29:02 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 12:29:02 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 12:29:02 INFO TextDataModel: Transform data to Convertor successfully!
+21/12/08 12:29:02 INFO TextDataConvertor: Dataset: [../data/split/cv_1/test.txt]
+21/12/08 12:29:02 INFO TextDataConvertor: DataSet: ..\data\split\cv_1\test.txt is finished
+21/12/08 12:29:02 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 12:29:02 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 12:29:02 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 12:29:02 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 12:29:02 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 12:29:02 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 1.
+21/12/08 12:29:02 INFO WBPRRecommender: Job Setup completed.
+21/12/08 12:29:04 INFO WBPRRecommender: WBPRRecommender iter 1: loss = 6747.461437392598, delta_loss = -6747.4614
+21/12/08 12:29:05 INFO WBPRRecommender: WBPRRecommender iter 2: loss = 6816.50563525737, delta_loss = -69.0442
+21/12/08 12:29:07 INFO WBPRRecommender: WBPRRecommender iter 3: loss = 6879.102616315961, delta_loss = -62.59698
+21/12/08 12:29:08 INFO WBPRRecommender: WBPRRecommender iter 4: loss = 6906.053132678165, delta_loss = -26.950516
+21/12/08 12:29:10 INFO WBPRRecommender: WBPRRecommender iter 5: loss = 6914.892442638402, delta_loss = -8.83931
+21/12/08 12:29:11 INFO WBPRRecommender: WBPRRecommender iter 6: loss = 6951.959454827613, delta_loss = -37.067013
+21/12/08 12:29:12 INFO WBPRRecommender: WBPRRecommender iter 7: loss = 6956.929465236925, delta_loss = -4.9700103
+21/12/08 12:29:14 INFO WBPRRecommender: WBPRRecommender iter 8: loss = 6956.782301560577, delta_loss = 0.14716367
+21/12/08 12:29:15 INFO WBPRRecommender: WBPRRecommender iter 9: loss = 6963.985321099491, delta_loss = -7.2030196
+21/12/08 12:29:16 INFO WBPRRecommender: WBPRRecommender iter 10: loss = 6965.969639801614, delta_loss = -1.9843187
+21/12/08 12:29:16 INFO WBPRRecommender: Job Train completed.
+21/12/08 12:29:16 INFO RecommenderJob: ExpCMD: COMPLETE
+21/12/08 12:29:16 INFO RecommenderJob: EvalCMD: START
+21/12/08 12:29:16 INFO RecommenderJob: Evaluator info:RMSEEvaluator is 0.06252442837693434
+21/12/08 12:29:16 INFO RecommenderJob: Result path is exp00002/result/out-1.txt
+21/12/08 12:29:16 INFO RecommenderJob: EvalCMD: COMPLETE.
+21/12/08 12:29:16 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+21/12/08 12:29:16 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 2.
+21/12/08 12:29:16 INFO TextDataConvertor: Dataset: [../data/split/cv_1/test.txt]
+21/12/08 12:29:16 INFO TextDataConvertor: DataSet: ..\data\split\cv_1\test.txt is finished
+21/12/08 12:29:16 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 12:29:16 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 12:29:16 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 12:29:16 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 12:29:16 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 12:29:17 INFO TextDataConvertor: Dataset: [../data/split/cv_2/train.txt]
+21/12/08 12:29:17 INFO TextDataConvertor: DataSet: ..\data\split\cv_2\train.txt is finished
+21/12/08 12:29:17 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 12:29:17 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 12:29:17 INFO TextDataModel: Transform data to Convertor successfully!
+21/12/08 12:29:17 INFO TextDataConvertor: Dataset: [../data/split/cv_2/test.txt]
+21/12/08 12:29:17 INFO TextDataConvertor: DataSet: ..\data\split\cv_2\test.txt is finished
+21/12/08 12:29:17 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 12:29:17 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 12:29:17 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 12:29:17 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 12:29:17 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 12:29:17 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 2.
+21/12/08 12:29:17 INFO WBPRRecommender: Job Setup completed.
+21/12/08 12:29:18 INFO WBPRRecommender: WBPRRecommender iter 1: loss = 6695.14627526143, delta_loss = -6695.1465
+21/12/08 12:29:19 INFO WBPRRecommender: WBPRRecommender iter 2: loss = 6652.075989511888, delta_loss = 43.070286
+21/12/08 12:29:21 INFO WBPRRecommender: WBPRRecommender iter 3: loss = 6768.170716697347, delta_loss = -116.09473
+21/12/08 12:29:22 INFO WBPRRecommender: WBPRRecommender iter 4: loss = 6864.512418339704, delta_loss = -96.341705
+21/12/08 12:29:24 INFO WBPRRecommender: WBPRRecommender iter 5: loss = 6886.555018123621, delta_loss = -22.0426
+21/12/08 12:29:25 INFO WBPRRecommender: WBPRRecommender iter 6: loss = 6917.399365405957, delta_loss = -30.844347
+21/12/08 12:29:26 INFO WBPRRecommender: WBPRRecommender iter 7: loss = 6916.764987599879, delta_loss = 0.6343778
+21/12/08 12:29:28 INFO WBPRRecommender: WBPRRecommender iter 8: loss = 6933.486877183552, delta_loss = -16.72189
+21/12/08 12:29:29 INFO WBPRRecommender: WBPRRecommender iter 9: loss = 6929.006987215005, delta_loss = 4.47989
+21/12/08 12:29:31 INFO WBPRRecommender: WBPRRecommender iter 10: loss = 6932.553951916217, delta_loss = -3.5469646
+21/12/08 12:29:31 INFO WBPRRecommender: Job Train completed.
+21/12/08 12:29:31 INFO RecommenderJob: ExpCMD: COMPLETE
+21/12/08 12:29:31 INFO RecommenderJob: EvalCMD: START
+21/12/08 12:29:31 INFO RecommenderJob: Evaluator info:RMSEEvaluator is 0.06252442837693434
+21/12/08 12:29:31 INFO RecommenderJob: Result path is exp00002/result/out-2.txt
+21/12/08 12:29:31 INFO RecommenderJob: EvalCMD: COMPLETE.
+21/12/08 12:29:31 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+21/12/08 12:29:31 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 3.
+21/12/08 12:29:31 INFO TextDataConvertor: Dataset: [../data/split/cv_2/test.txt]
+21/12/08 12:29:31 INFO TextDataConvertor: DataSet: ..\data\split\cv_2\test.txt is finished
+21/12/08 12:29:31 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 12:29:31 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 12:29:31 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 12:29:31 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 12:29:31 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 12:29:31 INFO TextDataConvertor: Dataset: [../data/split/cv_3/train.txt]
+21/12/08 12:29:31 INFO TextDataConvertor: DataSet: ..\data\split\cv_3\train.txt is finished
+21/12/08 12:29:31 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 12:29:31 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 12:29:31 INFO TextDataModel: Transform data to Convertor successfully!
+21/12/08 12:29:31 INFO TextDataConvertor: Dataset: [../data/split/cv_3/test.txt]
+21/12/08 12:29:31 INFO TextDataConvertor: DataSet: ..\data\split\cv_3\test.txt is finished
+21/12/08 12:29:31 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 12:29:31 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 12:29:31 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 12:29:31 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 12:29:31 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 12:29:31 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 3.
+21/12/08 12:29:31 INFO WBPRRecommender: Job Setup completed.
+21/12/08 12:29:32 INFO WBPRRecommender: WBPRRecommender iter 1: loss = 6882.869115460283, delta_loss = -6882.869
+21/12/08 12:29:34 INFO WBPRRecommender: WBPRRecommender iter 2: loss = 6950.244605047433, delta_loss = -67.37549
+21/12/08 12:29:35 INFO WBPRRecommender: WBPRRecommender iter 3: loss = 6992.897379221618, delta_loss = -42.652775
+21/12/08 12:29:36 INFO WBPRRecommender: WBPRRecommender iter 4: loss = 6994.01541393115, delta_loss = -1.1180347
+21/12/08 12:29:38 INFO WBPRRecommender: WBPRRecommender iter 5: loss = 7013.84008594453, delta_loss = -19.824673
+21/12/08 12:29:39 INFO WBPRRecommender: WBPRRecommender iter 6: loss = 7003.33467985682, delta_loss = 10.505406
+21/12/08 12:29:41 INFO WBPRRecommender: WBPRRecommender iter 7: loss = 7012.167056596752, delta_loss = -8.8323765
+21/12/08 12:29:42 INFO WBPRRecommender: WBPRRecommender iter 8: loss = 7008.236481827144, delta_loss = 3.9305747
+21/12/08 12:29:44 INFO WBPRRecommender: WBPRRecommender iter 9: loss = 7001.99066306302, delta_loss = 6.2458186
+21/12/08 12:29:45 INFO WBPRRecommender: WBPRRecommender iter 10: loss = 7012.171484178814, delta_loss = -10.180821
+21/12/08 12:29:45 INFO WBPRRecommender: Job Train completed.
+21/12/08 12:29:45 INFO RecommenderJob: ExpCMD: COMPLETE
+21/12/08 12:29:45 INFO RecommenderJob: EvalCMD: START
+21/12/08 12:29:45 INFO RecommenderJob: Evaluator info:RMSEEvaluator is 0.06252442837693434
+21/12/08 12:29:45 INFO RecommenderJob: Result path is exp00002/result/out-3.txt
+21/12/08 12:29:45 INFO RecommenderJob: EvalCMD: COMPLETE.
+21/12/08 12:29:45 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+21/12/08 12:29:45 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 4.
+21/12/08 12:29:45 INFO TextDataConvertor: Dataset: [../data/split/cv_3/test.txt]
+21/12/08 12:29:45 INFO TextDataConvertor: DataSet: ..\data\split\cv_3\test.txt is finished
+21/12/08 12:29:45 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 12:29:45 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 12:29:45 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 12:29:45 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 12:29:45 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 12:29:45 INFO TextDataConvertor: Dataset: [../data/split/cv_4/train.txt]
+21/12/08 12:29:45 INFO TextDataConvertor: DataSet: ..\data\split\cv_4\train.txt is finished
+21/12/08 12:29:45 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 12:29:45 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 12:29:45 INFO TextDataModel: Transform data to Convertor successfully!
+21/12/08 12:29:45 INFO TextDataConvertor: Dataset: [../data/split/cv_4/test.txt]
+21/12/08 12:29:45 INFO TextDataConvertor: DataSet: ..\data\split\cv_4\test.txt is finished
+21/12/08 12:29:45 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 12:29:45 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 12:29:45 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 12:29:45 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 12:29:45 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 12:29:45 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 4.
+21/12/08 12:29:45 INFO WBPRRecommender: Job Setup completed.
+21/12/08 12:29:47 INFO WBPRRecommender: WBPRRecommender iter 1: loss = 7047.4269387781915, delta_loss = -7047.427
+21/12/08 12:29:48 INFO WBPRRecommender: WBPRRecommender iter 2: loss = 7029.167542096955, delta_loss = 18.259398
+21/12/08 12:29:49 INFO WBPRRecommender: WBPRRecommender iter 3: loss = 7032.883547655319, delta_loss = -3.7160056
+21/12/08 12:29:51 INFO WBPRRecommender: WBPRRecommender iter 4: loss = 7036.176968796503, delta_loss = -3.293421
+21/12/08 12:29:52 INFO WBPRRecommender: WBPRRecommender iter 5: loss = 7034.309242213953, delta_loss = 1.8677266
+21/12/08 12:29:54 INFO WBPRRecommender: WBPRRecommender iter 6: loss = 7031.105587112359, delta_loss = 3.203655
+21/12/08 12:29:55 INFO WBPRRecommender: WBPRRecommender iter 7: loss = 7029.744097801676, delta_loss = 1.3614893
+21/12/08 12:29:56 INFO WBPRRecommender: WBPRRecommender iter 8: loss = 7027.109714191705, delta_loss = 2.6343837
+21/12/08 12:29:58 INFO WBPRRecommender: WBPRRecommender iter 9: loss = 7023.853760214969, delta_loss = 3.255954
+21/12/08 12:29:59 INFO WBPRRecommender: WBPRRecommender iter 10: loss = 7020.728157212004, delta_loss = 3.125603
+21/12/08 12:29:59 INFO WBPRRecommender: Job Train completed.
+21/12/08 12:29:59 INFO RecommenderJob: ExpCMD: COMPLETE
+21/12/08 12:29:59 INFO RecommenderJob: EvalCMD: START
+21/12/08 12:29:59 INFO RecommenderJob: Evaluator info:RMSEEvaluator is 0.06252442837693434
+21/12/08 12:29:59 INFO RecommenderJob: Result path is exp00002/result/out-4.txt
+21/12/08 12:29:59 INFO RecommenderJob: EvalCMD: COMPLETE.
+21/12/08 12:29:59 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+21/12/08 12:29:59 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 5.
+21/12/08 12:29:59 INFO TextDataConvertor: Dataset: [../data/split/cv_4/test.txt]
+21/12/08 12:29:59 INFO TextDataConvertor: DataSet: ..\data\split\cv_4\test.txt is finished
+21/12/08 12:29:59 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 12:29:59 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 12:29:59 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 12:29:59 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 12:29:59 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 12:29:59 INFO TextDataConvertor: Dataset: [../data/split/cv_5/train.txt]
+21/12/08 12:29:59 INFO TextDataConvertor: DataSet: ..\data\split\cv_5\train.txt is finished
+21/12/08 12:29:59 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 12:29:59 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 12:29:59 INFO TextDataModel: Transform data to Convertor successfully!
+21/12/08 12:29:59 INFO TextDataConvertor: Dataset: [../data/split/cv_5/test.txt]
+21/12/08 12:29:59 INFO TextDataConvertor: DataSet: ..\data\split\cv_5\test.txt is finished
+21/12/08 12:29:59 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 12:29:59 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 12:29:59 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 12:29:59 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 12:29:59 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 12:29:59 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 5.
+21/12/08 12:29:59 INFO WBPRRecommender: Job Setup completed.
+21/12/08 12:30:01 INFO WBPRRecommender: WBPRRecommender iter 1: loss = 6312.213285607258, delta_loss = -6312.2134
+21/12/08 12:30:02 INFO WBPRRecommender: WBPRRecommender iter 2: loss = 6760.2226932005715, delta_loss = -448.0094
+21/12/08 12:30:03 INFO WBPRRecommender: WBPRRecommender iter 3: loss = 6913.810166966998, delta_loss = -153.58748
+21/12/08 12:30:05 INFO WBPRRecommender: WBPRRecommender iter 4: loss = 6949.308771172765, delta_loss = -35.498604
+21/12/08 12:30:06 INFO WBPRRecommender: WBPRRecommender iter 5: loss = 6974.060377818826, delta_loss = -24.751606
+21/12/08 12:30:08 INFO WBPRRecommender: WBPRRecommender iter 6: loss = 6984.767516893584, delta_loss = -10.707139
+21/12/08 12:30:09 INFO WBPRRecommender: WBPRRecommender iter 7: loss = 6993.24811302359, delta_loss = -8.480597
+21/12/08 12:30:11 INFO WBPRRecommender: WBPRRecommender iter 8: loss = 6989.54844285511, delta_loss = 3.69967
+21/12/08 12:30:12 INFO WBPRRecommender: WBPRRecommender iter 9: loss = 7007.1037332098485, delta_loss = -17.55529
+21/12/08 12:30:13 INFO WBPRRecommender: WBPRRecommender iter 10: loss = 7006.284442570166, delta_loss = 0.81929064
+21/12/08 12:30:13 INFO WBPRRecommender: Job Train completed.
+21/12/08 12:30:13 INFO RecommenderJob: ExpCMD: COMPLETE
+21/12/08 12:30:13 INFO RecommenderJob: EvalCMD: START
+21/12/08 12:30:13 INFO RecommenderJob: Evaluator info:RMSEEvaluator is 0.06252442837693434
+21/12/08 12:30:13 INFO RecommenderJob: Result path is exp00002/result/out-5.txt
+21/12/08 12:30:13 INFO RecommenderJob: EvalCMD: COMPLETE.

@@ -1,0 +1,12 @@
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+21/12/08 11:35:46 INFO TextDataConvertor: Dataset: [../data/ratings.csv]
+21/12/08 11:35:46 INFO TextDataConvertor: DataSet: ..\data\ratings.csv is finished
+21/12/08 11:35:46 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:35:46 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:35:46 INFO TextDataModel: Transform data to Convertor successfully!
+21/12/08 11:35:46 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 11:35:46 INFO RecommenderJob: CheckCmd: START
+21/12/08 11:35:46 INFO RecommenderJob: CheckCmd: Checking class names
+21/12/08 11:35:46 INFO RecommenderJob: CheckCmd: Checking files and paths
+21/12/08 11:35:46 INFO RecommenderJob: CheckCmd: FINISH
+21/12/08 11:35:46 INFO RecommenderJob: Average Evaluation Result of Cross Validation:

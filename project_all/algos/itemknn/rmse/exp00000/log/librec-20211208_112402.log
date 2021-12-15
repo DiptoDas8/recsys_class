@@ -1,0 +1,148 @@
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+21/12/08 11:24:02 INFO TextDataConvertor: Dataset: [../data/ratings.csv]
+21/12/08 11:24:02 INFO TextDataConvertor: DataSet: ..\data\ratings.csv is finished
+21/12/08 11:24:02 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:24:02 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:24:02 INFO TextDataModel: Transform data to Convertor successfully!
+21/12/08 11:24:02 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 11:24:02 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+21/12/08 11:24:02 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 1.
+21/12/08 11:24:02 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 11:24:02 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 11:24:02 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 11:24:02 INFO TextDataConvertor: Dataset: [../data/split/cv_1/train.txt]
+21/12/08 11:24:02 INFO TextDataConvertor: DataSet: ..\data\split\cv_1\train.txt is finished
+21/12/08 11:24:02 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:24:02 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:24:02 INFO TextDataModel: Transform data to Convertor successfully!
+21/12/08 11:24:02 INFO TextDataConvertor: Dataset: [../data/split/cv_1/test.txt]
+21/12/08 11:24:02 INFO TextDataConvertor: DataSet: ..\data\split\cv_1\test.txt is finished
+21/12/08 11:24:02 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:24:02 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:24:02 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 11:24:02 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 11:24:02 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 11:24:02 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 1.
+21/12/08 11:24:03 INFO ItemKNNRecommender: Job Setup completed.
+21/12/08 11:24:03 INFO ItemKNNRecommender: Job Train completed.
+21/12/08 11:24:03 INFO RecommenderJob: ExpCMD: COMPLETE
+21/12/08 11:24:03 INFO RecommenderJob: EvalCMD: START
+21/12/08 11:24:03 INFO RecommenderJob: Evaluator info:RMSEEvaluator is 0.06245105148565751
+21/12/08 11:24:03 INFO RecommenderJob: Result path is exp00000/result/out-1.txt
+21/12/08 11:24:03 INFO RecommenderJob: EvalCMD: COMPLETE.
+21/12/08 11:24:03 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+21/12/08 11:24:03 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 2.
+21/12/08 11:24:03 INFO TextDataConvertor: Dataset: [../data/split/cv_1/test.txt]
+21/12/08 11:24:03 INFO TextDataConvertor: DataSet: ..\data\split\cv_1\test.txt is finished
+21/12/08 11:24:03 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:24:03 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:24:03 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 11:24:03 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 11:24:03 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 11:24:03 INFO TextDataConvertor: Dataset: [../data/split/cv_2/train.txt]
+21/12/08 11:24:03 INFO TextDataConvertor: DataSet: ..\data\split\cv_2\train.txt is finished
+21/12/08 11:24:03 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:24:03 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:24:03 INFO TextDataModel: Transform data to Convertor successfully!
+21/12/08 11:24:03 INFO TextDataConvertor: Dataset: [../data/split/cv_2/test.txt]
+21/12/08 11:24:03 INFO TextDataConvertor: DataSet: ..\data\split\cv_2\test.txt is finished
+21/12/08 11:24:03 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:24:03 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:24:03 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 11:24:03 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 11:24:03 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 11:24:03 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 2.
+21/12/08 11:24:03 INFO ItemKNNRecommender: Job Setup completed.
+21/12/08 11:24:03 INFO ItemKNNRecommender: Job Train completed.
+21/12/08 11:24:03 INFO RecommenderJob: ExpCMD: COMPLETE
+21/12/08 11:24:03 INFO RecommenderJob: EvalCMD: START
+21/12/08 11:24:03 INFO RecommenderJob: Evaluator info:RMSEEvaluator is 0.06245105148565751
+21/12/08 11:24:03 INFO RecommenderJob: Result path is exp00000/result/out-2.txt
+21/12/08 11:24:03 INFO RecommenderJob: EvalCMD: COMPLETE.
+21/12/08 11:24:03 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+21/12/08 11:24:03 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 3.
+21/12/08 11:24:03 INFO TextDataConvertor: Dataset: [../data/split/cv_2/test.txt]
+21/12/08 11:24:03 INFO TextDataConvertor: DataSet: ..\data\split\cv_2\test.txt is finished
+21/12/08 11:24:03 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:24:03 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:24:03 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 11:24:03 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 11:24:03 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 11:24:03 INFO TextDataConvertor: Dataset: [../data/split/cv_3/train.txt]
+21/12/08 11:24:03 INFO TextDataConvertor: DataSet: ..\data\split\cv_3\train.txt is finished
+21/12/08 11:24:03 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:24:03 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:24:03 INFO TextDataModel: Transform data to Convertor successfully!
+21/12/08 11:24:03 INFO TextDataConvertor: Dataset: [../data/split/cv_3/test.txt]
+21/12/08 11:24:03 INFO TextDataConvertor: DataSet: ..\data\split\cv_3\test.txt is finished
+21/12/08 11:24:03 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:24:03 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:24:03 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 11:24:03 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 11:24:03 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 11:24:03 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 3.
+21/12/08 11:24:04 INFO ItemKNNRecommender: Job Setup completed.
+21/12/08 11:24:04 INFO ItemKNNRecommender: Job Train completed.
+21/12/08 11:24:04 INFO RecommenderJob: ExpCMD: COMPLETE
+21/12/08 11:24:04 INFO RecommenderJob: EvalCMD: START
+21/12/08 11:24:04 INFO RecommenderJob: Evaluator info:RMSEEvaluator is 0.06245105148565751
+21/12/08 11:24:04 INFO RecommenderJob: Result path is exp00000/result/out-3.txt
+21/12/08 11:24:04 INFO RecommenderJob: EvalCMD: COMPLETE.
+21/12/08 11:24:04 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+21/12/08 11:24:04 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 4.
+21/12/08 11:24:04 INFO TextDataConvertor: Dataset: [../data/split/cv_3/test.txt]
+21/12/08 11:24:04 INFO TextDataConvertor: DataSet: ..\data\split\cv_3\test.txt is finished
+21/12/08 11:24:04 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:24:04 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:24:04 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 11:24:04 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 11:24:04 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 11:24:04 INFO TextDataConvertor: Dataset: [../data/split/cv_4/train.txt]
+21/12/08 11:24:04 INFO TextDataConvertor: DataSet: ..\data\split\cv_4\train.txt is finished
+21/12/08 11:24:04 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:24:04 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:24:04 INFO TextDataModel: Transform data to Convertor successfully!
+21/12/08 11:24:04 INFO TextDataConvertor: Dataset: [../data/split/cv_4/test.txt]
+21/12/08 11:24:04 INFO TextDataConvertor: DataSet: ..\data\split\cv_4\test.txt is finished
+21/12/08 11:24:04 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:24:04 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:24:04 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 11:24:04 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 11:24:04 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 11:24:04 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 4.
+21/12/08 11:24:04 INFO ItemKNNRecommender: Job Setup completed.
+21/12/08 11:24:04 INFO ItemKNNRecommender: Job Train completed.
+21/12/08 11:24:04 INFO RecommenderJob: ExpCMD: COMPLETE
+21/12/08 11:24:04 INFO RecommenderJob: EvalCMD: START
+21/12/08 11:24:04 INFO RecommenderJob: Evaluator info:RMSEEvaluator is 0.06245105148565751
+21/12/08 11:24:04 INFO RecommenderJob: Result path is exp00000/result/out-4.txt
+21/12/08 11:24:04 INFO RecommenderJob: EvalCMD: COMPLETE.
+21/12/08 11:24:04 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+21/12/08 11:24:04 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 5.
+21/12/08 11:24:04 INFO TextDataConvertor: Dataset: [../data/split/cv_4/test.txt]
+21/12/08 11:24:04 INFO TextDataConvertor: DataSet: ..\data\split\cv_4\test.txt is finished
+21/12/08 11:24:04 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:24:04 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:24:04 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 11:24:04 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 11:24:04 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 11:24:04 INFO TextDataConvertor: Dataset: [../data/split/cv_5/train.txt]
+21/12/08 11:24:04 INFO TextDataConvertor: DataSet: ..\data\split\cv_5\train.txt is finished
+21/12/08 11:24:04 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:24:04 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:24:04 INFO TextDataModel: Transform data to Convertor successfully!
+21/12/08 11:24:04 INFO TextDataConvertor: Dataset: [../data/split/cv_5/test.txt]
+21/12/08 11:24:04 INFO TextDataConvertor: DataSet: ..\data\split\cv_5\test.txt is finished
+21/12/08 11:24:04 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:24:04 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:24:04 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 11:24:04 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 11:24:04 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 11:24:04 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 5.
+21/12/08 11:24:05 INFO ItemKNNRecommender: Job Setup completed.
+21/12/08 11:24:05 INFO ItemKNNRecommender: Job Train completed.
+21/12/08 11:24:05 INFO RecommenderJob: ExpCMD: COMPLETE
+21/12/08 11:24:05 INFO RecommenderJob: EvalCMD: START
+21/12/08 11:24:05 INFO RecommenderJob: Evaluator info:RMSEEvaluator is 0.06245105148565751
+21/12/08 11:24:05 INFO RecommenderJob: Result path is exp00000/result/out-5.txt
+21/12/08 11:24:05 INFO RecommenderJob: EvalCMD: COMPLETE.

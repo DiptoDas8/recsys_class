@@ -1,0 +1,6 @@
+ERROR:root: Script failure: C:\Python38\lib\site-packages\librec_auto\core\cmd\post\slack_post.py: Post processing script at C:\Python38\lib\site-packages\librec_auto\core\cmd\post\slack_post.py failed.
+Traceback (most recent call last):
+  File "C:/Python38/lib/site-packages/librec_auto/core/cmd/post/slack_post.py", line 1, in <module>
+    from slack import WebClient
+ImportError: cannot import name 'WebClient' from 'slack' (C:\Python38\lib\site-packages\slack\__init__.py)
+

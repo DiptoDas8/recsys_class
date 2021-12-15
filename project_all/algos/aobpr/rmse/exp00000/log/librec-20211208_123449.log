@@ -1,0 +1,34 @@
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+21/12/08 12:34:49 INFO TextDataConvertor: Dataset: [../data/ratings.csv]
+21/12/08 12:34:49 INFO TextDataConvertor: DataSet: ..\data\ratings.csv is finished
+21/12/08 12:34:49 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 12:34:49 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 12:34:49 INFO TextDataModel: Transform data to Convertor successfully!
+21/12/08 12:34:49 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 12:34:49 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+21/12/08 12:34:49 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 1.
+21/12/08 12:34:49 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 12:34:49 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 12:34:49 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 12:34:49 INFO TextDataConvertor: Dataset: [../data/split/cv_1/train.txt]
+21/12/08 12:34:49 INFO TextDataConvertor: DataSet: ..\data\split\cv_1\train.txt is finished
+21/12/08 12:34:49 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 12:34:49 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 12:34:49 INFO TextDataModel: Transform data to Convertor successfully!
+21/12/08 12:34:49 INFO TextDataConvertor: Dataset: [../data/split/cv_1/test.txt]
+21/12/08 12:34:49 INFO TextDataConvertor: DataSet: ..\data\split\cv_1\test.txt is finished
+21/12/08 12:34:49 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 12:34:49 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 12:34:49 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 12:34:49 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 12:34:49 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 12:34:49 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 1.
+Exception in thread "main" java.lang.NullPointerException
+	at net.librec.recommender.cf.ranking.AoBPRRecommender.setup(AoBPRRecommender.java:63)
+	at net.librec.recommender.AbstractRecommender.train(AbstractRecommender.java:145)
+	at net.that_recsys_lab.auto.cmd.ExpCmd.executeRecommenderJob(ExpCmd.java:96)
+	at net.that_recsys_lab.auto.cmd.ExpCmd.execute(ExpCmd.java:54)
+	at net.that_recsys_lab.auto.cmd.SeqCmd.execute(SeqCmd.java:22)
+	at net.that_recsys_lab.auto.cmd.SeqCmd.execute(SeqCmd.java:22)
+	at net.that_recsys_lab.auto.AutoRecommenderJob.runJob(AutoRecommenderJob.java:200)
+	at net.that_recsys_lab.auto.SingleJobRunner.main(SingleJobRunner.java:27)

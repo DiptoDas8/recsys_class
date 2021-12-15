@@ -1,0 +1,218 @@
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+21/12/08 11:36:30 INFO TextDataConvertor: Dataset: [../data/ratings.csv]
+21/12/08 11:36:30 INFO TextDataConvertor: DataSet: ..\data\ratings.csv is finished
+21/12/08 11:36:30 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:36:30 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:36:30 INFO TextDataModel: Transform data to Convertor successfully!
+21/12/08 11:36:30 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 11:36:30 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+21/12/08 11:36:30 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 1.
+21/12/08 11:36:30 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 11:36:30 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 11:36:30 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 11:36:30 INFO TextDataConvertor: Dataset: [../data/split/cv_1/train.txt]
+21/12/08 11:36:30 INFO TextDataConvertor: DataSet: ..\data\split\cv_1\train.txt is finished
+21/12/08 11:36:30 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:36:30 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:36:30 INFO TextDataModel: Transform data to Convertor successfully!
+21/12/08 11:36:30 INFO TextDataConvertor: Dataset: [../data/split/cv_1/test.txt]
+21/12/08 11:36:30 INFO TextDataConvertor: DataSet: ..\data\split\cv_1\test.txt is finished
+21/12/08 11:36:30 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:36:30 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:36:30 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 11:36:30 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 11:36:30 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 11:36:30 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 1.
+21/12/08 11:36:30 INFO BiasedMFRecommender: Job Setup completed.
+21/12/08 11:36:30 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 13.965660566286962, delta_loss = -13.96566
+21/12/08 11:36:30 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 13.903491709410423, delta_loss = 0.062168855
+21/12/08 11:36:30 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 13.858280381241654, delta_loss = 0.045211326
+21/12/08 11:36:30 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 13.81916395345573, delta_loss = 0.039116427
+21/12/08 11:36:30 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 13.782373062825721, delta_loss = 0.036790892
+21/12/08 11:36:30 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 13.746639015270272, delta_loss = 0.035734046
+21/12/08 11:36:30 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 13.711550593632523, delta_loss = 0.03508842
+21/12/08 11:36:30 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 13.676977094501007, delta_loss = 0.0345735
+21/12/08 11:36:30 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 13.64287218374056, delta_loss = 0.03410491
+21/12/08 11:36:30 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 13.60921100704136, delta_loss = 0.033661176
+21/12/08 11:36:30 INFO BiasedMFRecommender: Job Train completed.
+21/12/08 11:36:30 INFO RecommenderJob: ExpCMD: COMPLETE
+21/12/08 11:36:30 INFO RecommenderJob: EvalCMD: START
+21/12/08 11:36:30 INFO BiasedMFRecommender: begin recommend
+21/12/08 11:36:31 INFO BiasedMFRecommender: end recommend
+21/12/08 11:36:31 INFO RecommenderJob: Evaluator info:AUCEvaluator is 0.5005223723223972
+21/12/08 11:36:31 INFO BiasedMFRecommender: begin recommend
+21/12/08 11:36:32 INFO BiasedMFRecommender: end recommend
+21/12/08 11:36:32 INFO RecommenderJob: Result path is exp00002/result/out-1.txt
+21/12/08 11:36:32 INFO RecommenderJob: EvalCMD: COMPLETE.
+21/12/08 11:36:32 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+21/12/08 11:36:32 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 2.
+21/12/08 11:36:32 INFO TextDataConvertor: Dataset: [../data/split/cv_1/test.txt]
+21/12/08 11:36:32 INFO TextDataConvertor: DataSet: ..\data\split\cv_1\test.txt is finished
+21/12/08 11:36:32 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:36:32 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:36:32 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 11:36:32 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 11:36:32 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 11:36:32 INFO TextDataConvertor: Dataset: [../data/split/cv_2/train.txt]
+21/12/08 11:36:32 INFO TextDataConvertor: DataSet: ..\data\split\cv_2\train.txt is finished
+21/12/08 11:36:32 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:36:32 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:36:32 INFO TextDataModel: Transform data to Convertor successfully!
+21/12/08 11:36:32 INFO TextDataConvertor: Dataset: [../data/split/cv_2/test.txt]
+21/12/08 11:36:32 INFO TextDataConvertor: DataSet: ..\data\split\cv_2\test.txt is finished
+21/12/08 11:36:32 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:36:32 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:36:32 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 11:36:32 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 11:36:32 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 11:36:32 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 2.
+21/12/08 11:36:32 INFO BiasedMFRecommender: Job Setup completed.
+21/12/08 11:36:32 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 13.969654443428885, delta_loss = -13.969654
+21/12/08 11:36:32 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 13.905846850011326, delta_loss = 0.06380759
+21/12/08 11:36:32 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 13.860525027747427, delta_loss = 0.045321822
+21/12/08 11:36:32 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 13.821735122448217, delta_loss = 0.038789906
+21/12/08 11:36:32 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 13.785348477500936, delta_loss = 0.036386646
+21/12/08 11:36:32 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 13.749990571676712, delta_loss = 0.035357907
+21/12/08 11:36:32 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 13.715227785144837, delta_loss = 0.034762785
+21/12/08 11:36:32 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 13.680931646223895, delta_loss = 0.03429614
+21/12/08 11:36:32 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 13.647063397872621, delta_loss = 0.03386825
+21/12/08 11:36:32 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 13.613605451094612, delta_loss = 0.033457946
+21/12/08 11:36:32 INFO BiasedMFRecommender: Job Train completed.
+21/12/08 11:36:32 INFO RecommenderJob: ExpCMD: COMPLETE
+21/12/08 11:36:32 INFO RecommenderJob: EvalCMD: START
+21/12/08 11:36:32 INFO BiasedMFRecommender: begin recommend
+21/12/08 11:36:32 INFO BiasedMFRecommender: end recommend
+21/12/08 11:36:32 INFO RecommenderJob: Evaluator info:AUCEvaluator is 0.5010449962229799
+21/12/08 11:36:32 INFO BiasedMFRecommender: begin recommend
+21/12/08 11:36:33 INFO BiasedMFRecommender: end recommend
+21/12/08 11:36:33 INFO RecommenderJob: Result path is exp00002/result/out-2.txt
+21/12/08 11:36:33 INFO RecommenderJob: EvalCMD: COMPLETE.
+21/12/08 11:36:33 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+21/12/08 11:36:33 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 3.
+21/12/08 11:36:33 INFO TextDataConvertor: Dataset: [../data/split/cv_2/test.txt]
+21/12/08 11:36:33 INFO TextDataConvertor: DataSet: ..\data\split\cv_2\test.txt is finished
+21/12/08 11:36:33 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:36:33 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:36:33 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 11:36:33 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 11:36:33 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 11:36:33 INFO TextDataConvertor: Dataset: [../data/split/cv_3/train.txt]
+21/12/08 11:36:33 INFO TextDataConvertor: DataSet: ..\data\split\cv_3\train.txt is finished
+21/12/08 11:36:33 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:36:33 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:36:33 INFO TextDataModel: Transform data to Convertor successfully!
+21/12/08 11:36:33 INFO TextDataConvertor: Dataset: [../data/split/cv_3/test.txt]
+21/12/08 11:36:33 INFO TextDataConvertor: DataSet: ..\data\split\cv_3\test.txt is finished
+21/12/08 11:36:33 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:36:33 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:36:33 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 11:36:33 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 11:36:33 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 11:36:33 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 3.
+21/12/08 11:36:33 INFO BiasedMFRecommender: Job Setup completed.
+21/12/08 11:36:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 13.974747925526023, delta_loss = -13.974748
+21/12/08 11:36:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 13.911809078036175, delta_loss = 0.06293885
+21/12/08 11:36:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 13.866447333042837, delta_loss = 0.045361746
+21/12/08 11:36:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 13.827345447016064, delta_loss = 0.039101887
+21/12/08 11:36:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 13.790590535310068, delta_loss = 0.03675491
+21/12/08 11:36:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 13.754875678205298, delta_loss = 0.035714857
+21/12/08 11:36:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 13.719784460610125, delta_loss = 0.035091218
+21/12/08 11:36:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 13.685189636237114, delta_loss = 0.034594823
+21/12/08 11:36:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 13.65104940280791, delta_loss = 0.034140233
+21/12/08 11:36:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 13.617342575683736, delta_loss = 0.03370683
+21/12/08 11:36:33 INFO BiasedMFRecommender: Job Train completed.
+21/12/08 11:36:33 INFO RecommenderJob: ExpCMD: COMPLETE
+21/12/08 11:36:33 INFO RecommenderJob: EvalCMD: START
+21/12/08 11:36:33 INFO BiasedMFRecommender: begin recommend
+21/12/08 11:36:33 INFO BiasedMFRecommender: end recommend
+21/12/08 11:36:33 INFO RecommenderJob: Evaluator info:AUCEvaluator is 0.5015706975156478
+21/12/08 11:36:33 INFO BiasedMFRecommender: begin recommend
+21/12/08 11:36:34 INFO BiasedMFRecommender: end recommend
+21/12/08 11:36:34 INFO RecommenderJob: Result path is exp00002/result/out-3.txt
+21/12/08 11:36:34 INFO RecommenderJob: EvalCMD: COMPLETE.
+21/12/08 11:36:34 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+21/12/08 11:36:34 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 4.
+21/12/08 11:36:34 INFO TextDataConvertor: Dataset: [../data/split/cv_3/test.txt]
+21/12/08 11:36:34 INFO TextDataConvertor: DataSet: ..\data\split\cv_3\test.txt is finished
+21/12/08 11:36:34 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:36:34 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:36:34 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 11:36:34 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 11:36:34 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 11:36:34 INFO TextDataConvertor: Dataset: [../data/split/cv_4/train.txt]
+21/12/08 11:36:34 INFO TextDataConvertor: DataSet: ..\data\split\cv_4\train.txt is finished
+21/12/08 11:36:34 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:36:34 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:36:34 INFO TextDataModel: Transform data to Convertor successfully!
+21/12/08 11:36:34 INFO TextDataConvertor: Dataset: [../data/split/cv_4/test.txt]
+21/12/08 11:36:34 INFO TextDataConvertor: DataSet: ..\data\split\cv_4\test.txt is finished
+21/12/08 11:36:34 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:36:34 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:36:34 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 11:36:34 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 11:36:34 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 11:36:34 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 4.
+21/12/08 11:36:34 INFO BiasedMFRecommender: Job Setup completed.
+21/12/08 11:36:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 13.955235518779897, delta_loss = -13.9552355
+21/12/08 11:36:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 13.895629977926152, delta_loss = 0.059605543
+21/12/08 11:36:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 13.851820566196738, delta_loss = 0.04380941
+21/12/08 11:36:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 13.813599601980284, delta_loss = 0.038220964
+21/12/08 11:36:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 13.777452837397862, delta_loss = 0.036146764
+21/12/08 11:36:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 13.742217356225336, delta_loss = 0.03523548
+21/12/08 11:36:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 13.707530623036064, delta_loss = 0.034686733
+21/12/08 11:36:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 13.673287741744279, delta_loss = 0.03424288
+21/12/08 11:36:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 13.639458223335719, delta_loss = 0.033829518
+21/12/08 11:36:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 13.606028143165027, delta_loss = 0.03343008
+21/12/08 11:36:34 INFO BiasedMFRecommender: Job Train completed.
+21/12/08 11:36:34 INFO RecommenderJob: ExpCMD: COMPLETE
+21/12/08 11:36:34 INFO RecommenderJob: EvalCMD: START
+21/12/08 11:36:34 INFO BiasedMFRecommender: begin recommend
+21/12/08 11:36:34 INFO BiasedMFRecommender: end recommend
+21/12/08 11:36:34 INFO RecommenderJob: Evaluator info:AUCEvaluator is 0.5026156895667772
+21/12/08 11:36:34 INFO BiasedMFRecommender: begin recommend
+21/12/08 11:36:35 INFO BiasedMFRecommender: end recommend
+21/12/08 11:36:35 INFO RecommenderJob: Result path is exp00002/result/out-4.txt
+21/12/08 11:36:35 INFO RecommenderJob: EvalCMD: COMPLETE.
+21/12/08 11:36:35 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+21/12/08 11:36:35 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 5.
+21/12/08 11:36:35 INFO TextDataConvertor: Dataset: [../data/split/cv_4/test.txt]
+21/12/08 11:36:35 INFO TextDataConvertor: DataSet: ..\data\split\cv_4\test.txt is finished
+21/12/08 11:36:35 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:36:35 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:36:35 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 11:36:35 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 11:36:35 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 11:36:35 INFO TextDataConvertor: Dataset: [../data/split/cv_5/train.txt]
+21/12/08 11:36:35 INFO TextDataConvertor: DataSet: ..\data\split\cv_5\train.txt is finished
+21/12/08 11:36:35 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:36:35 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:36:35 INFO TextDataModel: Transform data to Convertor successfully!
+21/12/08 11:36:35 INFO TextDataConvertor: Dataset: [../data/split/cv_5/test.txt]
+21/12/08 11:36:35 INFO TextDataConvertor: DataSet: ..\data\split\cv_5\test.txt is finished
+21/12/08 11:36:35 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0]
+21/12/08 11:36:35 INFO TextDataConvertor: user number: 2879,	 item number is: 8261
+21/12/08 11:36:35 INFO TextDataModel: Split data to train Set and test Set successfully!
+21/12/08 11:36:35 INFO TextDataModel: Data cardinality of training is 10230
+21/12/08 11:36:35 INFO TextDataModel: Data cardinality of testing is 2558
+21/12/08 11:36:35 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 5.
+21/12/08 11:36:35 INFO BiasedMFRecommender: Job Setup completed.
+21/12/08 11:36:35 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 13.963034462355312, delta_loss = -13.963035
+21/12/08 11:36:35 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 13.899019802043505, delta_loss = 0.06401466
+21/12/08 11:36:35 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 13.85374798622396, delta_loss = 0.045271818
+21/12/08 11:36:35 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 13.815063315485295, delta_loss = 0.03868467
+21/12/08 11:36:35 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 13.778770848361967, delta_loss = 0.036292467
+21/12/08 11:36:35 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 13.743479089760033, delta_loss = 0.035291757
+21/12/08 11:36:35 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 13.708754581089329, delta_loss = 0.034724507
+21/12/08 11:36:35 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 13.674474176661404, delta_loss = 0.034280404
+21/12/08 11:36:35 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 13.64060524960263, delta_loss = 0.033868928
+21/12/08 11:36:35 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 13.607135668920872, delta_loss = 0.03346958
+21/12/08 11:36:35 INFO BiasedMFRecommender: Job Train completed.
+21/12/08 11:36:35 INFO RecommenderJob: ExpCMD: COMPLETE
+21/12/08 11:36:35 INFO RecommenderJob: EvalCMD: START
+21/12/08 11:36:35 INFO BiasedMFRecommender: begin recommend
+21/12/08 11:36:35 INFO BiasedMFRecommender: end recommend
+21/12/08 11:36:35 INFO RecommenderJob: Evaluator info:AUCEvaluator is 0.5020933175212475
+21/12/08 11:36:35 INFO BiasedMFRecommender: begin recommend
+21/12/08 11:36:36 INFO BiasedMFRecommender: end recommend
+21/12/08 11:36:36 INFO RecommenderJob: Result path is exp00002/result/out-5.txt
+21/12/08 11:36:36 INFO RecommenderJob: EvalCMD: COMPLETE.
